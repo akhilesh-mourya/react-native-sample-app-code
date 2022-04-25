@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "934883807919",
+    "project_id": "dreampick-staging",
+    "storage_bucket": "dreampick-staging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934883807919:android:35d0ab1476ecf4333bba5a",
+        "android_client_info": {
+          "package_name": "com.dreampick.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934883807919-bsvt885ono06177bd27v7i8aa93dcphk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dreampick.app",
+            "certificate_hash": "c58fd631df4cedbbf198436bbb58edef2233d2bb"
+          }
+        },
+        {
+          "client_id": "934883807919-dvgkkt4mop8t3hn6ppv18o2fuqcs6agm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAja49fDSy7j_yCREMUJpTD7ufCHAj38do"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934883807919-dvgkkt4mop8t3hn6ppv18o2fuqcs6agm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "934883807919-58l2h2lgi0vk6a59f28bj2ue44f8t6ck.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dreampick.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

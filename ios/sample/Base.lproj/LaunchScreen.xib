@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="y0z-PX-gXd">
+            <view key="view" contentMode="scaleToFill" id="P5g-Oj-PBg">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dp_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Y7B-Yb-1Pq">
+                        <rect key="frame" x="40" y="101" width="334" height="89"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="89" id="OR8-xQ-cnV"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SportsGroup" translatesAutoresizingMaskIntoConstraints="NO" id="s63-rz-7Lh">
+                        <rect key="frame" x="22" y="350" width="370" height="196"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="196" id="Vsz-nD-xSC"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WIN BIG WITH TEAM BASED FANTASY SPORTS  " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hiq-NL-9IT">
+                        <rect key="frame" x="60" y="571" width="294" height="120"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="120" id="bz3-Oz-vuy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="23"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
+                </subviews>
+                <viewLayoutGuide key="safeArea" id="EWG-Pa-92k"/>
+                <color key="backgroundColor" red="0.10980392156862745" green="0.10588235294117647" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="hiq-NL-9IT" firstAttribute="leading" secondItem="EWG-Pa-92k" secondAttribute="leading" constant="60" id="3OE-1o-sRb"/>
+                    <constraint firstItem="EWG-Pa-92k" firstAttribute="trailing" secondItem="Y7B-Yb-1Pq" secondAttribute="trailing" constant="40" id="Mrr-7Q-DqF"/>
+                    <constraint firstItem="Y7B-Yb-1Pq" firstAttribute="top" secondItem="EWG-Pa-92k" secondAttribute="top" constant="57" id="O4u-2y-RCV"/>
+                    <constraint firstItem="s63-rz-7Lh" firstAttribute="centerX" secondItem="P5g-Oj-PBg" secondAttribute="centerX" id="RTF-20-X0N"/>
+                    <constraint firstItem="hiq-NL-9IT" firstAttribute="top" secondItem="s63-rz-7Lh" secondAttribute="bottom" constant="25" id="etU-Np-Sef"/>
+                    <constraint firstItem="EWG-Pa-92k" firstAttribute="trailing" secondItem="hiq-NL-9IT" secondAttribute="trailing" constant="60" id="fcy-JB-tIp"/>
+                    <constraint firstItem="s63-rz-7Lh" firstAttribute="centerY" secondItem="P5g-Oj-PBg" secondAttribute="centerY" id="s90-b6-tQH"/>
+                    <constraint firstItem="Y7B-Yb-1Pq" firstAttribute="leading" secondItem="EWG-Pa-92k" secondAttribute="leading" constant="40" id="zBF-bo-wIz"/>
+                </constraints>
+            </view>
+            <point key="canvasLocation" x="1518.840579710145" y="339.50892857142856"/>
+        </viewController>
+    </objects>
+    <resources>
+        <image name="SportsGroup" width="370" height="196"/>
+        <image name="dp_logo.png" width="320" height="88.5"/>
+    </resources>
+</document>
